@@ -1,0 +1,53 @@
+body{
+    background-image: url(f85287908ef4bd99df7845cb59399de9.jpg);
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgb(45, 42, 39);
+    width: 650px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+input{
+    outline: 1px solid rgb(0, 0, 0);
+    flex-direction: column;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    width: 350px;
+}
+
+input:focus{
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+button{
+    width: 60px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(51, 184, 10);
+    transform: scale(1.05);
+}
+
+.erro{
+    color: red;
+}
+
+.erro-idade{
+    color: red;
+}
